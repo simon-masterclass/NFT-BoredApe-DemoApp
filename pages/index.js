@@ -29,7 +29,7 @@ export default function Home() {
           <nav aria-label="Contact Menu">
             <ul className="flex items-center space-x-4 md:space-x-6">
               <li className="cursor-pointer">
-                <a href="https://opensea.io" target="_blank" rel="noreferrer">
+                <a href="https://testnets.opensea.io/collection/boredape-fc7cwk06bf" target="_blank" rel="noreferrer">
                   <svg
                     className="w-6 h-6 md:w-8 md:h-8"
                     viewBox="0 0 90 90"
@@ -46,7 +46,7 @@ export default function Home() {
 
               <li className="cursor-pointer">
                 <a
-                  href="https://twitter.com/DidemKkkaraasl1"
+                  href="https://twitter.com/zeroarmy_org"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -65,7 +65,7 @@ export default function Home() {
 
               <li className="cursor-pointer">
                 <a
-                  href="https://discord.gg/rAFdkCwn"
+                  href="https://discord.gg/Veuex7cS"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -111,7 +111,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:space-x-16 space-y-10 items-center mt-20 w-full">
             {/* BoredApe Image */}
             <img
-              src="/images/9.png"
+              src="/images/0.png"
               className="w-64 h-64 rounded-md object-cover"
             />
 
@@ -120,11 +120,10 @@ export default function Home() {
                 About BoredApes
               </h2>
 
-              <p className="mt-6 text-lg">
-                {`BoredApes are a collection of 100 burning hot NFTs living in
-                the core of the blockchain. Each individual BoredApes is
+              <p className="mt-6 text-lg text-left">
+                {`BoredApes are a collection of 100 burning hot NFTs guaranteed to give all your friends FOMO (Fear of Missing Out). Each individual BoredApe is
                 carefully curated from over 150 traits, along with some
-                incredibly rare 1/1s that have traits that can't be found from
+                incredibly rare 1/1s that have traits that can't be found in
                 any other BoredApes. Our vision is to create an amazing project
                 that will shed light, joy, love, and creativity! Burn on,
                 BoredApes!`}

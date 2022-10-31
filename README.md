@@ -4,7 +4,7 @@ This a complete example of fullstack NFT minting dApp. **BoredApe** is built wit
 
 To see the demo check this link:
 
-[![vercel](https://img.shields.io/badge/vercel-5624d0?style=for-the-badge&logo=vercel&logoColor=white)](https://boredape-minting-dapp.vercel.app/)
+[![vercel](https://img.shields.io/badge/vercel-5624d0?style=for-the-badge&logo=vercel&logoColor=white)](https://nft-minting-dapp-theta.vercel.app/)
 
 ## Installation
 
@@ -32,11 +32,11 @@ After making changes you need to update the `scripts/whitelist.js` with your whi
 to do that. You can find the _deploy_ & _verify_ scripts inside `/scripts`folder.
 
 ```bash
-  # This command will deploy your smart contract on rinkeby test network
-  npx hardhat run scripts/deployContract.js --network rinkeby
+  # This command will deploy your smart contract on the Polygon Mumbai testnet
+  npx hardhat run scripts/deployContract.js --network mumbai
 
-  # This command will verify your smart contract on rinkeby etherscan
-  npx hardhat run scripts/verifyContract.js --network rinkeby
+  # This command will verify your smart contract on the Polygon Mumbai testnet
+  npx hardhat run scripts/verifyContract.js --network mumbai
 ```
 
 \*\* If you want to use a different network you need to pass its name instead of rinkeby. Also make sure you configured it
